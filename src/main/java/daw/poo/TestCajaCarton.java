@@ -4,8 +4,6 @@
  */
 package daw.poo;
 
-import CajaCarton.;
-
 /**
  *
  * @author lorena
@@ -20,7 +18,7 @@ cajaGrande: ancho 250mm, alto 400mm, largo 500mm. Peso 200gr.
 cajaChica: ancho 25mm, alto 30mm, largo 15mm. Peso 17gr.
 Muestra los datos de las cajas creadas usando métodos get.
 
-*/
+ */
 public class TestCajaCarton {
 
     /**
@@ -30,9 +28,12 @@ public class TestCajaCarton {
         // TODO code application logic here
         CajaCarton cajaGrande;
         CajaCarton cajaChica;
-        cajaGrande = new CajaCarton();
-        cajaChica = new CajaCarton();
-        
+        cajaGrande = new CajaCarton(250, 400, 500, 200);
+        cajaChica = new CajaCarton(25, 30, 15, 70);
+        System.out.print("Datos del vehículo :" + cajaGrande.getCajaCarton() + “, “ + vehiculo1.getMarca(
+        )
+);
+
     }
     
 }
