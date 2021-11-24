@@ -19,7 +19,7 @@ cajaChica: ancho 25mm, alto 30mm, largo 15mm. Peso 17gr.
 Muestra los datos de las cajas creadas usando métodos get.
 
  */
-public class TestCajaCarton {
+public class NewMain {
 
     /**
      * @param args the command line arguments
