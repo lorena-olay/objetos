@@ -22,6 +22,8 @@ public class CANCION {
     private String autor;
 
     public CANCION() {
+        this.titulo="";
+        this.autor="";
     }
 
     public CANCION(String titulo, String autor) {
