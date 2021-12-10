@@ -9,17 +9,17 @@ package N3_diseño_clases_relacionC;
  * @author lorena
  */
 public class PuntoGeometrico {
-    public int x, y;
+    public double x, y;
 
     public PuntoGeometrico() {
     }
 
-    public PuntoGeometrico(int x, int y) {
+    public PuntoGeometrico(double x, double y) {
         this.x = x;
         this.y = y;
     }
 
-    public int getX() {
+    public double getX() {
         return x;
     }
 
@@ -27,7 +27,7 @@ public class PuntoGeometrico {
         this.x = x;
     }
 
-    public int getY() {
+    public double getY() {
         return y;
     }
 
